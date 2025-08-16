@@ -46,8 +46,7 @@ This line uses React’s useReducer hook to manage component state with a reduce
 
 state: The current state value managed by the reducer. Here it will start as { count: 0 }.
 
-dispatch: A function used to send “actions” to the reducer to update the state.
-
+dispatch: A function used to send “actions” to the reducer to update the state.Pp
 reducer: A function you defined that takes (state, action) and returns the next state based on action.type.
 
 { count: 0 }: The initial state passed to useReducer.
